@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches For You | Մեր մասին</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #0E0F12;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: #0E0F12;
+            border: 1px solid #0E0F12;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #0E0F12;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .brand-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .brand-name span {
+            color: #C6A15B;
+        }
+
+        .main-logo {
+            width: 300px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #C6A15B;
+            display: table;
+            margin: 0 auto 15px auto;
+            padding-bottom: 5px;
+            font-size: 1.5rem;
+        }
+
+        .about-text {
+            color: #444444;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+
+        .installment-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #C6A15B;
+            border-radius: 10px;
+            color: #444444;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #0E0F12;
+            font-size: 0.9rem;
+            color: #444444;
+        }
+
+        a {
+            color: #0E0F12;
+            text-decoration: none;
+        }
+
+        @media (max-width: 480px) {
+            .back-btn { left: 10px; padding: 8px 15px; font-size: 0.8rem; }
+            .installment-box { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">← Գլխավոր</a>
+
+    <div class="container">
+        <!-- Եթե լոգոյի նկար ունես, փոխարինիր այս տողը՝ <img src="logo.jpg" alt="Watches For You" class="main-logo"> -->
+        <div class="brand-name">Watches <span>For You</span></div>
+
+        <h1>Մեր մասին</h1>
+
+        <p class="about-text">
+            Մենք ընտրում ենք ժամացույցներ, որոնք ընդգծում են ձեր ոճն ու բնավորությունը։ Ճշգրիտ մեխանիկա, ազնիվ նյութեր և դիզայն, որը ժամանակի հետ չի հնանում։
+        </p>
+
+        <div class="installment-box">
+            <div class="installment-text">Մեզ մոտ գործում է ՄԱՍ-ՄԱՍ վճարման համակարգ՝ ՀԵՇՏ ՈՒ ԱՐԱԳ։</div>
+        </div>
+
+        <div class="contact-info">
+            <h3>Կապ մեզ հետ</h3>
+            <p>📞 Հեռ.: +374 XX XX XX XX</p>
+            <p>📍 Հասցե: ք. Երևան, ...</p>
+            <p>📧 Gmail: YOUR_EMAIL@gmail.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
